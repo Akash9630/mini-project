@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import BarcodeGenerator from './components/BarcodeGenerator';
+import BarcodeGenerator from './component/BarcodeGenerator';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <BarcodeGenerator />
     </div>
   );
